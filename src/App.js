@@ -1,10 +1,11 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import './App.css';
 
-const App = () => (<Router>
-    <Navbar/>
-    <Routes>
-        <Route path="/" element={<Hompage />} />
-                </Routes>
-</Router>);
+function App() {
+  return (
+    <div className="App">
+      <h2>React Template</h2>
+    </div>
+  );
+}
 
 export default App;
